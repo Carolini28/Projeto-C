@@ -10,6 +10,7 @@ namespace Course {
             Console.Write("Quantos quartos serão alugados? ");
             int quartos = int.Parse(Console.ReadLine());
             Console.WriteLine();
+            Console.WriteLine();
 
             for (int i = 0; i < quartos; i++) {
                 Console.WriteLine("Aluguel #"+(i + 1)+": ");
